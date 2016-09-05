@@ -1,0 +1,151 @@
+
+	
+body {
+    background-image: url("im2.jpg");
+    background-position: fixed;
+    background-position-y: bottom;
+    background-position-x: center;
+	background-size: 70%;
+    background-repeat: no-repeat;
+    background-color: black;
+    margin-left: auto;
+    margin-right: auto;
+	font-family: Arial;
+	font-size: 12pt;
+	color: #E2E9EB;
+	text-align: left;
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    height: 25px;
+    width: 100%;
+}
+
+header {
+    position: absolute;
+    left: 10px;
+    top: 5px;
+    height: 40px;
+    width: 100%;
+    font-size: 30px;
+    font-weight: bold;
+    text-shadow: 1px 2px darkslategrey;
+    color: #E2E9EB;
+}
+
+/*p {
+	border-top: 4px dotted red;
+	border-bottom: 6px dashed green;
+	border-right: 8px solid blue;
+    background-color: #045B7A;
+	color: #FFFF33;
+	padding-left: 50px;
+	padding-right: 5px;
+    padding-bottom: 20px;
+	margin-bottom: 30px;
+    margin-right: 6cm;
+	margin-left: 6cm;
+    text-align: center;
+	text-decoration: none;		
+}*/
+
+   
+ul.topnav {
+    list-style-type: none;
+    margin-top: 50px;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgba(140, 140, 140, 0.35);
+}
+
+footer.topnav {
+    background-color: rgba(40, 40, 40, 0.80);
+    color: #f2f2f2;
+    text-align: center;
+    font-size: 17px;
+    font-style: italic;
+}
+
+/*  list items side by side */
+ul.topnav li {float: left;}
+
+
+ul.topnav li a {
+    display: inline-block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: 0.3s;
+    font-size: 17px;
+}
+
+ul.topnav li a:hover {background-color: #555;}
+
+/* for small screens */
+ul.topnav li.icon {display: none;}
+	
+#about, #personal, #contact, #photos {
+    
+    text-shadow: 1px 2px darkslategrey;
+    color: #E2E9EB;
+}
+
+#rightpart{
+    width: 270px;
+    position: fixed;
+    bottom: 100px;
+    right: 0;
+    padding: 0;
+    margin: 40px;
+}
+
+#leftpart{
+    width: 300px;
+    padding: 0;
+    margin: 25px;
+}
+
+#centerpart{
+    width: 300px;
+    position: absolute;
+    top: 300px;
+    right: 500px;
+    text-align: center;
+    font-size: 25px;
+    color: rgba(190, 190, 190, 0.22);
+    font-style: italic;
+    text-shadow: 1px 1px dimgrey;
+
+}
+
+th, td {
+    border-bottom: 1px solid #ddd;
+}
+
+/* color every even row of a table*/
+tr:nth-child(even) {background-color: rgba(140, 140, 140, 0.35)}
+
+
+h2{
+    font-size: 20px;
+    text-shadow: 1px 2px darkslategrey;
+    color: #E2E9EB;
+}
+
+div.topnav a{
+    position: fixed;
+    bottom: 30px;
+    right: 20px;
+    width: 100px;
+    height: 30px;
+    background-color: rgba(140, 140, 140, 0.35);
+    color: #E2E9EB;
+    font-weight: bold;
+    text-align: center;
+    font-size: 110%
+}
+
